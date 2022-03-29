@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -22,34 +22,36 @@
             <div class="credits">Photo by <a href="#"> Halie West </a> on <a href="#">Unsplash</a></div>
         </div>
         <div class="right-section">
-            <div class="above-quote">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-                <p>Sign up now to get started.</p>
-                <p>You know you want to.</p>
+            <div class="right-section-content">
+                <div class="above-quote">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up<span> now </span>to get started.</p>
+                    <p id="quote-ending">You<span> know </span>you want to.</p>
+                </div>
+                <div class="input-container">
+                    <p>Let's do this!</p>
+                    <form action="" method="post">
+                        <div class="first-column-inputs">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="first_name" id="firstName">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="second-column-inputs">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="last_name" id="lastName">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="text" name="phone_number" id="phoneNumber">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm_password" id="confirmPassword">
+                        </div>
+                    </form>
+                </div>
+                <button id="create-account">Create Account</button>
+                <p id="log-in-full">Already have an account? <a href="#" id="log-in-a">Log in</a></p>
             </div>
-            <div class="input-container">
-                <p>Let's do this!</p>
-                <form action="" method="post">
-                    <div class="first-column-inputs">
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" name="first_name" id="firstName">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="second-column-inputs">
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" name="last_name" id="lastName">
-                        <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="text" name="phone_number" id="phoneNumber">
-                        <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirmPassword">
-                    </div>
-                </form>
-            </div>
-            <button id="create-account">Create Account</button>
-            <p id="log-in-full">Already have an account? <a href="#" id="log-in-a">Log in</a></p>
         </div>
     </div>
 </body>
