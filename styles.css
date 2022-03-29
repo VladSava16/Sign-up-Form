@@ -1,3 +1,7 @@
+:root{
+    --left-section-padding: 30px;
+}
+
 @font-face {
     font-family: 'Norse';
     src: url('./fonts/Norse-Bold.otf');
@@ -62,8 +66,9 @@ body{
 }
 .above-quote{
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: var(--left-section-padding);
     width: 650px;
+    margin-bottom: 80px;
 }
 .above-quote p{
     margin: 0;
@@ -73,4 +78,11 @@ body{
 }
 .above-quote span{
     font-style: italic;
+}
+.input-container{
+    box-shadow: 0 0 10px lightgray;
+    padding: var(--left-section-padding);
+}
+.input-container p{
+    margin: 0;
 }
