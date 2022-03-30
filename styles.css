@@ -109,3 +109,12 @@ label{
     display: flex;
     flex-direction: column;
 }
+input{
+    height: 1.2rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgb(73, 116, 233)
+}
