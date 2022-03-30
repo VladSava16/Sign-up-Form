@@ -97,8 +97,15 @@ body{
 .first-column-inputs, .second-column-inputs{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 label{
-    font-size: .75rem;
+    font-size: .7rem;
     letter-spacing: .1rem;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+.label-and-input-container{
+    display: flex;
+    flex-direction: column;
 }
