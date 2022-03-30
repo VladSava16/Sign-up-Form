@@ -113,6 +113,7 @@ input{
     height: 1.2rem;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
+    width: 250px;
 }
 input:focus{
     outline: none;
@@ -124,4 +125,19 @@ input:focus{
 .error-message{
     color: red;
     font-size: .65rem;
+}
+#create-account{
+    margin-left: var(--left-section-padding);
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 45px 15px 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+#create-account:active{
+    background-color: #415035;
 }
