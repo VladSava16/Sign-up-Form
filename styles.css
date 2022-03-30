@@ -141,3 +141,14 @@ input:focus{
 #create-account:active{
     background-color: #415035;
 }
+#log-in-full{
+    margin-left: var(--left-section-padding);
+    margin-top: 30px;
+    font-size: 1rem;
+}
+#log-in-a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+    font-size: 1rem;
+}
